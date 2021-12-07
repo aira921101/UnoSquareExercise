@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Interview Microsoft Search">
+
+	<parameter name="runType"     value="remote" />
+	<parameter name="browser"     value="chrome" />
+	<parameter name="environment" value="test" />
+	
+	<test name="Interview Microsoft Search"> 
+		<classes>
+			<class name="app.test.Test_Interview" />
+			<methods>
+				
+				<include name="TC01_Check_login_valid_data_StepRunner" />
+				<include name="TC02_Validate_Created_Instance" />
+			</methods>
+		</classes>
+	</test>
+
+</suite>
